@@ -10,10 +10,20 @@ html {
 }
 
 body {
+	 position: relative;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.6rem;
 }
 
+[id] {
+	scroll-margin-top: 84px;
+}
+
+@media (min-width: 992px) {
+	[id] {
+		scroll-margin-top: 69px;
+	}
+}
 .hero-shadow {
 	position: absolute;
 	top: 0;
